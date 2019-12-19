@@ -1,0 +1,21 @@
+1 Functions
+2 Line no	 code line
+3 2	def __init__(self,row,col)
+4 8	def populate(self,name)
+5 15	def read(self,name)
+6 22	def add(self,name,MatrixB)
+7 Leaders
+8 Line no	 code line
+9 1	class Matrix
+10 2	def __init__(self,row,col)
+11 8	def populate(self,name)
+12 10	for i in range(self.row)
+13 11	for j in range(self.col)
+14 15	def read(self,name)
+15 17	for i in range(self.row)
+16 18	for j in range(self.col)
+17 22	def add(self,name,MatrixB)
+18 23	if self.row == MatrixB.row and self.col == MatrixB.col
+19 24	for i in range(self.row)
+20 25	for j in range(self.col)
+21 27	else
